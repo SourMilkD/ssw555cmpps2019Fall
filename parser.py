@@ -21,6 +21,8 @@ valid_tags = {
     "2": ("DATE"),
 }
 
+def us27():
+    print("us27")
 
 def parse_line(raw_line):
     token = raw_line.split(" ")
