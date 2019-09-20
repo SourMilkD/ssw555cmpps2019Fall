@@ -2,7 +2,7 @@ import sys
 import json
 from prettytable import PrettyTable
 from collections import defaultdict
-
+ 
 valid_tags = {
     "0": ("HEAD", "TRLR", "NOTE"),
     "1": (
